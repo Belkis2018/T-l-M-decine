@@ -1,0 +1,50 @@
+<html>
+    <head>
+     <meta charset="utf-8" />
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/stylesigup.css">
+	 <link rel="shorcut icon" href="image/icon.jpg">
+    </head>
+	<body>
+	   
+	    <nav class="navbar navbar-default">
+	        <div>
+
+              <ul class="nav navbar-nav ">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="docteurs.html">Docteurs</a></li>
+                <li><a href="commentaires.php">FAQ</a></li>
+                <li><a href="information.html">Information</a></li>
+                <a  href="login.html"><img class ="icon" src="image/icon-icons.png"/></a>
+
+              </ul>
+            </div>
+			
+	    </nav>
+	    <div class="main">
+		   <p class="sign" align="center">Formulaire d'inscription "Docteur"</p>
+		    <form class="form1" method="POST" action="inscripDr.php">
+			    <input class="un"placeholder="Prénom"  type="text" name="prenomdr">
+                <input class="un" placeholder="Nom"type="text" name="nomdr">
+				<input class="un" placeholder="Le sexe (Homme/Femme)" type="text" name="sexe">
+               <!-- <div class="un">				
+			    <label >Le sexe  :</label> 
+			    <label >Homme<input type="radio"align="center" name="sexe" value="h"><span class=""></span></label>
+                <label >Femme<input type="radio" align="center"name="sexe" value="f"><span class=""></span></label>
+				</div>-->
+                <input placeholder="Type de spécialité"  class="un" type="text" name="specialite">
+				<input placeholder="numéro de téléphone "  class="un" type="text" name="telephone">
+				<input class="un"align="c" placeholder="Email/Nom d'utilisateur"type="text" name="email">
+				<input class="pass" placeholder="Mot de passe"  type="password" name="motpasse">
+				<button class="submit" type="submit" name="submit">S'INSCRIRE</button>
+
+                                       
+			
+
+            </form>
+    </div>
+	
+	
+	</body>
+</html>
